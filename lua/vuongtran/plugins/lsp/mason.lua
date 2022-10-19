@@ -22,10 +22,23 @@ mason.setup()
 mason_lspconfig.setup({
 	-- list of servers for mason to install
 	ensure_installed = {
-		"tsserver",
 		"html",
 		"cssls",
+		"tsserver",
+		"pyright",
+		"intelephense",
+		"emmet_ls",
+		"angularls",
+		"eslint",
+		"graphql",
+		"jsonls",
+		"sqlls",
+		"svelte",
 		"tailwindcss",
+		"vimls",
+		"vuels",
+		"bashls",
+		"dockerls",
 		"sumneko_lua",
 	},
 	-- auto-install configured servers (with lspconfig)
