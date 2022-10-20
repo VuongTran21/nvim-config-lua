@@ -90,3 +90,5 @@ nnoremap("<leader>q", ":q!<CR>") -- quit without save
 nnoremap("<leader>Q", ":wq<CR>") -- save and quit
 nnoremap("<leader>w", ":w<CR>") -- save single file
 nnoremap("<leader>x", ":bdelete<CR>") -- delete buffer
+
+nnoremap("<leader>nv", ":tabnew ~/.config/nvim/lua/vuongtran/core/keymaps.lua<CR>")
