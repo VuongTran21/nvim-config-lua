@@ -1,5 +1,11 @@
 local opt = vim.opt -- for conciseness
+vim.cmd("filetype plugin indent on")
 
+vim.o.hidden = true
+
+opt.hlsearch = false
+opt.list = true
+opt.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal"
 -- line numbers
 opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
@@ -9,6 +15,7 @@ opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
+vim.bo.autoindent = true
 
 -- line wrapping
 opt.wrap = false -- disable line wrapping
