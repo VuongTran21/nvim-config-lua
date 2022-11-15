@@ -55,6 +55,9 @@ nnoremap("<leader>gfc", "<cmd>Telescope git_bcommits<cr>") -- list git commits f
 nnoremap("<leader>gb", "<cmd>Telescope git_branches<cr>") -- list git branches (use <cr> to checkout) ["gb" for git branch]
 nnoremap("<leader>gs", "<cmd>Telescope git_status<cr>") -- list current changes per file with diff preview ["gs" for git status]
 
+-- gitsign
+nnoremap("<leader>grh", "<cmd>Gitsigns reset_hunk<cr>") -- list current changes per file with diff preview ["gs" for git status]
+
 -- restart lsp server (not on youtube nvim video)
 nnoremap("<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
