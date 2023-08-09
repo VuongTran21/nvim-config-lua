@@ -17,7 +17,7 @@ nvimtree.setup({
 	-- change folder arrow icons
 	renderer = {
 		icons = {
-			glyphs = {
+			devicons = {
 				folder = {
 					arrow_closed = "", -- arrow when folder is closed
 					arrow_open = "", -- arrow when folder is open
