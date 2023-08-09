@@ -26,7 +26,7 @@ mason_lspconfig.setup({
 		"cssls",
 		"tsserver",
 		"pyright",
-		"intelephense",
+		-- "intelephense",
 		"emmet_ls",
 		"angularls",
 		"eslint",
@@ -39,7 +39,6 @@ mason_lspconfig.setup({
 		"vuels",
 		"bashls",
 		"dockerls",
-		"sumneko_lua",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed

@@ -31,7 +31,7 @@ lualine_nightfly.command = {
 -- configure lualine with modified theme
 lualine.setup({
 	options = {
-		theme = "tokyonight-storm",
+		-- theme = "tokyonight-storm",
 		globalstatus = true,
 	},
 })
