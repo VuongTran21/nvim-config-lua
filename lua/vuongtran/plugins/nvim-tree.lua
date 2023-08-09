@@ -17,10 +17,29 @@ nvimtree.setup({
 	-- change folder arrow icons
 	renderer = {
 		icons = {
-			devicons = {
+			glyphs = {
+				default = "",
+				symlink = "",
+				bookmark = "󰆤",
+				modified = "●",
 				folder = {
-					arrow_closed = "", -- arrow when folder is closed
-					arrow_open = "", -- arrow when folder is open
+					arrow_closed = "",
+					arrow_open = "",
+					default = "",
+					open = "",
+					empty = "",
+					empty_open = "",
+					symlink = "",
+					symlink_open = "",
+				},
+				git = {
+					unstaged = "✗",
+					staged = "✓",
+					unmerged = "",
+					renamed = "➜",
+					untracked = "★",
+					deleted = "",
+					ignored = "◌",
 				},
 			},
 		},
