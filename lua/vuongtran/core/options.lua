@@ -13,9 +13,9 @@ opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
 -- tabs & indentation
-opt.tabstop = 4
-opt.softtabstop = 4
-opt.shiftwidth = 4
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
 opt.expandtab = true
 opt.smartindent = true
 
@@ -34,7 +34,7 @@ opt.cursorline = true -- highlight the current cursor line
 -- turn on termguicolors for nightfly colorscheme to work
 -- (have to use iterm2 or any other true color terminal)
 opt.termguicolors = true
--- opt.background = "dark" -- colorschemes that can be light or dark will be made dark
+opt.background = "dark" -- colorschemes that can be light or dark will be made dark
 
 opt.scrolloff = 8
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
@@ -42,6 +42,7 @@ opt.isfname:append("@-@")
 
 -- backspace
 opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or insert mode start position
+opt.shortmess:append("c")
 
 -- split windows
 opt.splitright = true -- split vertical window to the right
